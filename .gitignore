@@ -1,0 +1,44 @@
+# Author data, local downloads and paper
+/data/
+/RawData/
+/DataAlignedForML/
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.parquet
+*.mat
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pdf
+
+# Local-only research plan
+/CARES_复现路线.md
+
+# Models and generated artifacts
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Python, editors and local configuration
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+
+# OS and Office temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
